@@ -169,16 +169,13 @@ const Home = () => {
           <FadeInSection>
             <div className="space-y-8">
               <h2 className="text-4xl md:text-6xl font-light tracking-widest leading-relaxed">
-                Materiality of Silence
+                {t.materiality.title}
               </h2>
               <p className="text-lg opacity-70 leading-loose tracking-wide">
-                Every thread speaks in whispers. The texture of darkness, the weight of light. 
-                Our pieces exist in the space between substance and void.
+                {t.materiality.body1}
               </p>
               <p className="text-lg opacity-70 leading-loose tracking-wide">
-                Traditional Japanese craftsmanship meets philosophical inquiry. 
-                Each work is numbered, documented, and preserved in the blockchain—
-                an eternal record of transient beauty.
+                {t.materiality.body2}
               </p>
             </div>
           </FadeInSection>
@@ -206,12 +203,10 @@ const Home = () => {
           <FadeInSection>
             <div className="relative z-10 text-center max-w-3xl mx-auto space-y-12">
               <h2 className="text-5xl md:text-7xl font-light tracking-[0.2em]">
-                Breath of the Void
+                {t.breath.title}
               </h2>
               <p className="text-xl opacity-80 leading-loose tracking-wider">
-                Like incense rising into darkness, our creations ascend beyond commerce 
-                into the realm of meaning. Each piece carries intention, 
-                each purchase becomes remembrance.
+                {t.breath.body}
               </p>
             </div>
           </FadeInSection>
@@ -223,7 +218,7 @@ const Home = () => {
         <div className="max-w-6xl mx-auto">
           <FadeInSection>
             <h2 className="text-5xl md:text-7xl font-light tracking-[0.3em] text-center mb-24">
-              ARCHIVE
+              {t.archive.title}
             </h2>
           </FadeInSection>
 
@@ -287,24 +282,20 @@ const Home = () => {
         <FadeInSection>
           <div className="max-w-4xl mx-auto space-y-16 text-center">
             <h2 className="text-5xl md:text-7xl font-light tracking-[0.3em] mb-16">
-              MANIFESTO
+              {t.manifesto.title}
             </h2>
             <div className="space-y-12 text-lg md:text-xl opacity-70 leading-loose tracking-wide">
               <p>
-                We reject the superficiality of fast fashion. 
-                We embrace the weight of permanence.
+                {t.manifesto.text1}
               </p>
               <p>
-                Every garment is a statement of being. 
-                Every purchase, an act of faith. 
-                Every record, a prayer to time itself.
+                {t.manifesto.text2}
               </p>
               <p>
-                Through blockchain technology and traditional craftsmanship, 
-                we preserve not just objects, but moments of consciousness.
+                {t.manifesto.text3}
               </p>
               <p className="text-2xl md:text-3xl font-light tracking-[0.2em] pt-8">
-                This is the scripture of black.
+                {t.manifesto.text4}
               </p>
             </div>
           </div>
@@ -328,8 +319,8 @@ const Home = () => {
       {/* Footer */}
       <footer className="border-t border-foreground/10 py-12 px-8">
         <div className="max-w-6xl mx-auto flex justify-between items-center text-xs tracking-widest opacity-50">
-          <p>© 2024 KURO ARCHIVE</p>
-          <p>FAITH • RITUAL • PRAYER</p>
+          <p>{t.footer.copyright}</p>
+          <p>{t.footer.tagline}</p>
         </div>
       </footer>
     </div>

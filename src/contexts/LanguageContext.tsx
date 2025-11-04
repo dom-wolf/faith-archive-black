@@ -35,6 +35,29 @@ interface Translations {
     message: string;
     submit: string;
   };
+  materiality: {
+    title: string;
+    body1: string;
+    body2: string;
+  };
+  breath: {
+    title: string;
+    body: string;
+  };
+  archive: {
+    title: string;
+  };
+  manifesto: {
+    title: string;
+    text1: string;
+    text2: string;
+    text3: string;
+    text4: string;
+  };
+  footer: {
+    copyright: string;
+    tagline: string;
+  };
 }
 
 const translations: Record<Language, Translations> = {
@@ -71,6 +94,29 @@ const translations: Record<Language, Translations> = {
       message: 'メッセージ',
       submit: '送信',
     },
+    materiality: {
+      title: '沈黙の物質性',
+      body1: 'すべての糸は囁きで語る。闇の質感、光の重み。我々の作品は、物質と虚無の間の空間に存在する。',
+      body2: '伝統的な日本の職人技と哲学的探求の融合。各作品は番号付けされ、記録され、ブロックチェーンに保存される—儚い美の永遠の記録。',
+    },
+    breath: {
+      title: '虚空の息吹',
+      body: '闇に立ち昇る香のように、我々の創造物は商業を超えて意味の領域へと昇華する。各作品は意図を運び、各購入は記憶となる。',
+    },
+    archive: {
+      title: 'アーカイブ',
+    },
+    manifesto: {
+      title: 'マニフェスト',
+      text1: '我々はファストファッションの表面性を拒絶する。永続性の重みを受け入れる。',
+      text2: 'すべての衣服は存在の表明である。すべての購入は信仰の行為である。すべての記録は時間そのものへの祈りである。',
+      text3: 'ブロックチェーン技術と伝統的な職人技を通じて、我々は単なる物体ではなく、意識の瞬間を保存する。',
+      text4: 'これが黒の聖典である。',
+    },
+    footer: {
+      copyright: '© 2024 黒アーカイブ',
+      tagline: '信仰・儀式・祈り',
+    },
   },
   en: {
     nav: {
@@ -104,6 +150,29 @@ const translations: Record<Language, Translations> = {
       email: 'Email',
       message: 'Message',
       submit: 'Submit',
+    },
+    materiality: {
+      title: 'Materiality of Silence',
+      body1: 'Every thread speaks in whispers. The texture of darkness, the weight of light. Our pieces exist in the space between substance and void.',
+      body2: 'Traditional Japanese craftsmanship meets philosophical inquiry. Each work is numbered, documented, and preserved in the blockchain—an eternal record of transient beauty.',
+    },
+    breath: {
+      title: 'Breath of the Void',
+      body: 'Like incense rising into darkness, our creations ascend beyond commerce into the realm of meaning. Each piece carries intention, each purchase becomes remembrance.',
+    },
+    archive: {
+      title: 'ARCHIVE',
+    },
+    manifesto: {
+      title: 'MANIFESTO',
+      text1: 'We reject the superficiality of fast fashion. We embrace the weight of permanence.',
+      text2: 'Every garment is a statement of being. Every purchase, an act of faith. Every record, a prayer to time itself.',
+      text3: 'Through blockchain technology and traditional craftsmanship, we preserve not just objects, but moments of consciousness.',
+      text4: 'This is the scripture of black.',
+    },
+    footer: {
+      copyright: '© 2024 KURO ARCHIVE',
+      tagline: 'FAITH • RITUAL • PRAYER',
     },
   },
 };
